@@ -1,0 +1,42 @@
+/* cart */
+
+.cart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    width: 35px;
+    height: 35px;
+}
+
+.cart:hover {
+    cursor: pointer;
+}
+
+.cart svg,
+.cart path,
+.cart circle {
+    stroke: currentColor;
+    fill: transparent;
+    -webkit-transition-delay: .2s;
+    transition-delay: .2s;
+}
+
+.heart {
+    width: 25px;
+    height: 25px;
+    color: rgb(165, 8, 8);
+    cursor: pointer;
+}
+
+.heart svg,
+.heart path,
+.heart circle {
+    stroke: currentColor;
+    fill: transparent;
+}
+
+.checkedHeart path {
+    fill: rgb(165, 8, 8) !important;
+}
