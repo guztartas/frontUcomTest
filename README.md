@@ -25,19 +25,6 @@ Rodar em prod:
 yarn start
 ```
 
-Testes:
-
-```bash
-# Todos testes
-yarn test
-
-# Todos testes em watch mode
-yarn test:watch
-
-# Ver a cobertura de testes
-yarn coverage
-```
-
 Linting:
 
 ```bash
