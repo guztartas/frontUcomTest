@@ -3,7 +3,6 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    font-family: 'system-ui';
 }
 
 .product {
@@ -164,4 +163,12 @@
 
 .fullStars:before {
     -webkit-text-stroke: 1px orange;
+}
+
+
+/* loading */
+
+.loading {
+    width: max-content;
+    margin: 10% auto;
 }
